@@ -1,0 +1,1 @@
+-wto "985f4259f5144c46a2cbb375c56f9a37" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "REG_ABSELECT_TB_func_synth" "xil_defaultlib.REG_ABSELECT_TB" -log "elaborate.log" 

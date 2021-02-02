@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"MUX_Y_TB_func_synth.vhd" \
+"../../../../../GCD_LCM.srcs/sim_1/new/MUX_Y_TB.vhd" \
+
+# Do not sort compile order
+nosort

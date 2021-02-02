@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/REG_X.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'REG_X'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sim_1/new/REG_X_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'REG_X_TB'

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="LCM_GCD_TB_func_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="LCM_GCD_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="862166fs"></ZoomStartTime>
+      <ZoomEndTime time="965367fs"></ZoomEndTime>
+      <Cursor1Time time="932566fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="148"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/LCM_GCD_TB/AF_S" type="array">
+      <obj_property name="ElementShortName">AF_S[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AF_S[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCM_GCD_TB/BF_S" type="array">
+      <obj_property name="ElementShortName">BF_S[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BF_S[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCM_GCD_TB/PRUEBA_S" type="array">
+      <obj_property name="ElementShortName">PRUEBA_S[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PRUEBA_S[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCM_GCD_TB/R_S" type="array">
+      <obj_property name="ElementShortName">R_S[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R_S[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCM_GCD_TB/SEL0_S" type="logic">
+      <obj_property name="ElementShortName">SEL0_S</obj_property>
+      <obj_property name="ObjectShortName">SEL0_S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCM_GCD_TB/CLR0_S" type="logic">
+      <obj_property name="ElementShortName">CLR0_S</obj_property>
+      <obj_property name="ObjectShortName">CLR0_S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCM_GCD_TB/GO0_S" type="logic">
+      <obj_property name="ElementShortName">GO0_S</obj_property>
+      <obj_property name="ObjectShortName">GO0_S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCM_GCD_TB/CLK0_S" type="logic">
+      <obj_property name="ElementShortName">CLK0_S</obj_property>
+      <obj_property name="ObjectShortName">CLK0_S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCM_GCD_TB/STOP_CLOCK" type="other">
+      <obj_property name="ElementShortName">STOP_CLOCK</obj_property>
+      <obj_property name="ObjectShortName">STOP_CLOCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCM_GCD_TB/CLOCK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLOCK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_PERIOD</obj_property>
+   </wvobject>
+</wave_config>
