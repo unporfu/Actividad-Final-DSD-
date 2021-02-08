@@ -1,5 +1,7 @@
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.sim/sim_1/synth/func/xsim/LCM_GCD_TB_func_synth.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'COMPARADOR'
+INFO: [VRFC 10-3107] analyzing entity 'MUX_X'
+INFO: [VRFC 10-3107] analyzing entity 'MUX_Y'
 INFO: [VRFC 10-3107] analyzing entity 'REG_ABSELECT'
 INFO: [VRFC 10-3107] analyzing entity 'REG_OUT'
 INFO: [VRFC 10-3107] analyzing entity 'REG_X'

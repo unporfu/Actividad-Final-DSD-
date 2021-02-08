@@ -5,8 +5,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity COMPARADOR is
 
 PORT( 
-             X_C : IN std_logic_vector(7 DOWNTO 0); 
-             Y_C : IN std_logic_vector(7 DOWNTO 0);  
+             X_C : IN std_logic_vector(15 DOWNTO 0); 
+             Y_C : IN std_logic_vector(15 DOWNTO 0);  
              EQ : OUT std_logic;
              MAX : OUT std_logic
      );

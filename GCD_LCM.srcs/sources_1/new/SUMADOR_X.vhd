@@ -5,9 +5,9 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 entity SUMADOR_X is
 
 PORT( 
-             X_P : IN std_logic_vector(7 DOWNTO 0); 
-             A_P : IN std_logic_vector(7 DOWNTO 0);  
-             XO_P : OUT std_logic_vector(7 DOWNTO 0));
+             X_P : IN std_logic_vector(15 DOWNTO 0); 
+             A_P : IN std_logic_vector(15 DOWNTO 0);  
+             XO_P : OUT std_logic_vector(15 DOWNTO 0));
 
 end SUMADOR_X;
 

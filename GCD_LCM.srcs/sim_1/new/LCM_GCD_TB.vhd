@@ -11,16 +11,15 @@ component LCM_GCD
   
    port(
 
-    AF,BF     : in std_logic_vector(7 downto 0);
-    R         : out std_logic_vector(7 downto 0);
-    PRUEBA    : out std_logic_vector(7 downto 0);
+    AF,BF     : in std_logic_vector(15 downto 0);
+    R         : out std_logic_vector(15 downto 0);
     SEL0,CLR0,GO0,CLK0   : in std_logic
         );
         
 end component;
 
-    signal AF_S,BF_S,PRUEBA_S    : std_logic_vector(7 downto 0);
-    signal R_S         : std_logic_vector(7 downto 0);
+    signal AF_S,BF_S    : std_logic_vector(15 downto 0);
+    signal R_S         : std_logic_vector(15 downto 0);
     signal SEL0_S,CLR0_S,GO0_S,CLK0_S   : std_logic;
     constant CLOCK_PERIOD: time := 10ns;
     signal STOP_CLOCK : boolean;
@@ -28,17 +27,17 @@ end component;
 begin
  
  UUT: LCM_GCD port map (AF => AF_S,BF => BF_S,R => R_S,
- SEL0 => SEL0_S,CLR0 => CLR0_S,GO0 => GO0_S, CLK0 => CLK0_S, PRUEBA=> PRUEBA_S);  
+ SEL0 => SEL0_S,CLR0 => CLR0_S,GO0 => GO0_S, CLK0 => CLK0_S);  
  
  probe : process 
  
  begin
- AF_S <= "00000100";
- BF_S <= "00000110";
- SEL0_S <= '0';
+ AF_S <= "0000000001010111";
+ BF_S <= "0000000000111110";
+ SEL0_S <= '1';
  CLR0_S <= '0';
  GO0_S  <= '1';
- wait;
+ wait for 200ns;
 
 end process;
 

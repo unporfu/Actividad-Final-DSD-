@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Feb  6 01:09:25 2021
+# Process ID: 4940
+# Current directory: C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4224 C:\Users\Usuario\Desktop\2021-1\barbosa\GCD_LCM\GCD_LCM.xpr
+# Log file: C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/vivado.log
+# Journal file: C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.xpr
+launch_simulation -mode post-synthesis -type functional
+source LCM_GCD_TB.tcl
+update_compile_order -fileset sources_1
+run 100 s
+relaunch_sim
+close_sim

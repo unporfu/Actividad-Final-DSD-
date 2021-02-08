@@ -2,11 +2,9 @@
 2020.1
 May 27 2020
 20:09:33
-C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.sim/sim_1/synth/func/xsim/LCM_GCD_TB_func_synth.vhd,1612142071,vhdl,,,,comparador;lcm_gcd;reg_abselect;reg_out;reg_x;reg_y;restador_x;restador_y;sumador_x;sumador_y;unidad_control,,,,,,,,
-C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.sim/sim_1/synth/func/xsim/MUX_X_TB_func_synth.vhd,1611900883,vhdl,,,,mux_x,,,,,,,,
-C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.sim/sim_1/synth/func/xsim/MUX_Y_TB_func_synth.vhd,1611902420,vhdl,,,,mux_y,,,,,,,,
+C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.sim/sim_1/synth/func/xsim/LCM_GCD_TB_func_synth.vhd,1612595604,vhdl,,,,comparador;lcm_gcd;mux_x;mux_y;reg_abselect;reg_out;reg_x;reg_y;restador_x;restador_y;sumador_x;sumador_y;unidad_control,,,,,,,,
 C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sim_1/new/COMPARADOR_TB.vhd,1611975366,vhdl,,,,comparador_tb,,,,,,,,
-C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sim_1/new/LCM_GCD_TB.vhd,1612142064,vhdl,,,,lcm_gcd_tb,,,,,,,,
+C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sim_1/new/LCM_GCD_TB.vhd,1612595595,vhdl,,,,lcm_gcd_tb,,,,,,,,
 C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sim_1/new/MUX_X_TB.vhd,1611900427,vhdl,,,,mux_x_tb,,,,,,,,
 C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sim_1/new/MUX_Y_TB.vhd,1611901694,vhdl,,,,mux_y_tb,,,,,,,,
 C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sim_1/new/REG_ABSELECT_TB.vhd,1611964169,vhdl,,,,reg_abselect_tb,,,,,,,,

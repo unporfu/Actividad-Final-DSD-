@@ -4,8 +4,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity REG_X is 
 
 port(
-    IN_RX   : in std_logic_vector(7 downto 0);
-    OUT_RX  : out std_logic_vector(7 downto 0);
+    IN_RX   : in std_logic_vector(15 downto 0);
+    OUT_RX  : out std_logic_vector(15 downto 0);
     XLD,CLR,CLK   : in std_logic
     );
     
@@ -20,7 +20,7 @@ REGISTRO : process (CLK,CLR)
      begin
      
         IF (CLR='1') THEN
-        OUT_RX <= "00000000";
+        OUT_RX <= "0000000000000000";
         ELSIF (rising_edge(CLK)) THEN
         IF (XLD = '1') THEN 
         OUT_RX <= IN_RX;

@@ -2,8 +2,8 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Sat Jan 30 20:43:14 2021
-# Process ID: 13544
+# Start of session at: Fri Feb  5 23:23:55 2021
+# Process ID: 10776
 # Current directory: C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.runs/synth_1
 # Command line: vivado.exe -log LCM_GCD.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source LCM_GCD.tcl
 # Log file: C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.runs/synth_1/LCM_GCD.vds
@@ -16,62 +16,62 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7a12ti'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a12ti'
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 5128
+INFO: [Synth 8-7075] Helper process launched with PID 9148
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1015.668 ; gain = 0.000
+Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1014.309 ; gain = 0.000
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'LCM_GCD' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:16]
-INFO: [Synth 8-3491] module 'MUX_X' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/MUX_X.vhd:4' bound to instance 'MUX_X0' of component 'MUX_X' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:154]
+INFO: [Synth 8-638] synthesizing module 'LCM_GCD' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:15]
+INFO: [Synth 8-3491] module 'MUX_X' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/MUX_X.vhd:4' bound to instance 'MUX_X0' of component 'MUX_X' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:151]
 INFO: [Synth 8-638] synthesizing module 'MUX_X' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/MUX_X.vhd:18]
 INFO: [Synth 8-226] default block is never used [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/MUX_X.vhd:24]
 INFO: [Synth 8-256] done synthesizing module 'MUX_X' (1#1) [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/MUX_X.vhd:18]
-INFO: [Synth 8-3491] module 'MUX_Y' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/MUX_Y.vhd:4' bound to instance 'MUX_Y0' of component 'MUX_Y' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:157]
+INFO: [Synth 8-3491] module 'MUX_Y' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/MUX_Y.vhd:4' bound to instance 'MUX_Y0' of component 'MUX_Y' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:154]
 INFO: [Synth 8-638] synthesizing module 'MUX_Y' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/MUX_Y.vhd:18]
 INFO: [Synth 8-226] default block is never used [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/MUX_Y.vhd:24]
 INFO: [Synth 8-256] done synthesizing module 'MUX_Y' (2#1) [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/MUX_Y.vhd:18]
-INFO: [Synth 8-3491] module 'REG_ABSELECT' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/REG_ABSELECT.vhd:4' bound to instance 'REG_ABSELECT0' of component 'REG_ABSELECT' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:160]
-INFO: [Synth 8-638] synthesizing module 'REG_ABSELECT' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/REG_ABSELECT.vhd:18]
-INFO: [Synth 8-256] done synthesizing module 'REG_ABSELECT' (3#1) [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/REG_ABSELECT.vhd:18]
-INFO: [Synth 8-3491] module 'REG_X' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/REG_X.vhd:4' bound to instance 'REGX0' of component 'REG_X' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:164]
+INFO: [Synth 8-3491] module 'REG_ABSELECT' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/REG_ABSELECT.vhd:4' bound to instance 'REG_ABSELECT0' of component 'REG_ABSELECT' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:157]
+INFO: [Synth 8-638] synthesizing module 'REG_ABSELECT' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/REG_ABSELECT.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'REG_ABSELECT' (3#1) [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/REG_ABSELECT.vhd:16]
+INFO: [Synth 8-3491] module 'REG_X' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/REG_X.vhd:4' bound to instance 'REGX0' of component 'REG_X' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:161]
 INFO: [Synth 8-638] synthesizing module 'REG_X' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/REG_X.vhd:14]
 INFO: [Synth 8-256] done synthesizing module 'REG_X' (4#1) [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/REG_X.vhd:14]
-INFO: [Synth 8-3491] module 'REG_Y' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/REG_Y.vhd:4' bound to instance 'REGY0' of component 'REG_Y' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:166]
+INFO: [Synth 8-3491] module 'REG_Y' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/REG_Y.vhd:4' bound to instance 'REGY0' of component 'REG_Y' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:163]
 INFO: [Synth 8-638] synthesizing module 'REG_Y' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/REG_Y.vhd:14]
 INFO: [Synth 8-256] done synthesizing module 'REG_Y' (5#1) [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/REG_Y.vhd:14]
-INFO: [Synth 8-3491] module 'REG_OUT' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/REG_OUT.vhd:4' bound to instance 'REGO0' of component 'REG_OUT' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:168]
+INFO: [Synth 8-3491] module 'REG_OUT' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/REG_OUT.vhd:4' bound to instance 'REGO0' of component 'REG_OUT' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:165]
 INFO: [Synth 8-638] synthesizing module 'REG_OUT' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/REG_OUT.vhd:14]
 INFO: [Synth 8-256] done synthesizing module 'REG_OUT' (6#1) [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/REG_OUT.vhd:14]
-INFO: [Synth 8-3491] module 'SUMADOR_X' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/SUMADOR_X.vhd:5' bound to instance 'SX' of component 'SUMADOR_X' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:170]
+INFO: [Synth 8-3491] module 'SUMADOR_X' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/SUMADOR_X.vhd:5' bound to instance 'SX' of component 'SUMADOR_X' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:167]
 INFO: [Synth 8-638] synthesizing module 'SUMADOR_X' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/SUMADOR_X.vhd:14]
 INFO: [Synth 8-256] done synthesizing module 'SUMADOR_X' (7#1) [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/SUMADOR_X.vhd:14]
-INFO: [Synth 8-3491] module 'SUMADOR_Y' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/SUMADOR_Y.vhd:5' bound to instance 'SY' of component 'SUMADOR_Y' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:172]
+INFO: [Synth 8-3491] module 'SUMADOR_Y' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/SUMADOR_Y.vhd:5' bound to instance 'SY' of component 'SUMADOR_Y' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:169]
 INFO: [Synth 8-638] synthesizing module 'SUMADOR_Y' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/SUMADOR_Y.vhd:14]
 INFO: [Synth 8-256] done synthesizing module 'SUMADOR_Y' (8#1) [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/SUMADOR_Y.vhd:14]
-INFO: [Synth 8-3491] module 'RESTADOR_X' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/RESTADOR_X.vhd:5' bound to instance 'RSX' of component 'RESTADOR_X' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:174]
+INFO: [Synth 8-3491] module 'RESTADOR_X' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/RESTADOR_X.vhd:5' bound to instance 'RSX' of component 'RESTADOR_X' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:171]
 INFO: [Synth 8-638] synthesizing module 'RESTADOR_X' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/RESTADOR_X.vhd:14]
 INFO: [Synth 8-256] done synthesizing module 'RESTADOR_X' (9#1) [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/RESTADOR_X.vhd:14]
-INFO: [Synth 8-3491] module 'RESTADOR_Y' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/RESTADOR_Y.vhd:5' bound to instance 'RSY' of component 'RESTADOR_Y' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:176]
+INFO: [Synth 8-3491] module 'RESTADOR_Y' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/RESTADOR_Y.vhd:5' bound to instance 'RSY' of component 'RESTADOR_Y' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:173]
 INFO: [Synth 8-638] synthesizing module 'RESTADOR_Y' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/RESTADOR_Y.vhd:14]
 INFO: [Synth 8-256] done synthesizing module 'RESTADOR_Y' (10#1) [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/RESTADOR_Y.vhd:14]
-INFO: [Synth 8-3491] module 'COMPARADOR' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/COMPARADOR.vhd:5' bound to instance 'COMP' of component 'COMPARADOR' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:178]
+INFO: [Synth 8-3491] module 'COMPARADOR' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/COMPARADOR.vhd:5' bound to instance 'COMP' of component 'COMPARADOR' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:175]
 INFO: [Synth 8-638] synthesizing module 'COMPARADOR' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/COMPARADOR.vhd:16]
 INFO: [Synth 8-256] done synthesizing module 'COMPARADOR' (11#1) [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/COMPARADOR.vhd:16]
-INFO: [Synth 8-3491] module 'UNIDAD_CONTROL' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/UNIDAD_CONTROL.vhd:4' bound to instance 'UC' of component 'UNIDAD_CONTROL' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:180]
+INFO: [Synth 8-3491] module 'UNIDAD_CONTROL' declared at 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/UNIDAD_CONTROL.vhd:4' bound to instance 'UC' of component 'UNIDAD_CONTROL' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:177]
 INFO: [Synth 8-638] synthesizing module 'UNIDAD_CONTROL' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/UNIDAD_CONTROL.vhd:14]
 INFO: [Synth 8-256] done synthesizing module 'UNIDAD_CONTROL' (12#1) [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/UNIDAD_CONTROL.vhd:14]
-INFO: [Synth 8-256] done synthesizing module 'LCM_GCD' (13#1) [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'LCM_GCD' (13#1) [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/LCM_GCD.vhd:15]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1015.668 ; gain = 0.000
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1014.309 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1015.668 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1014.309 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a12ticsg325-1L
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1015.668 ; gain = 0.000
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1014.309 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a12ticsg325-1L
 INFO: [Synth 8-802] inferred FSM for state register 'PRESENT_S_reg' in module 'UNIDAD_CONTROL'
@@ -95,7 +95,7 @@ WARNING: [Synth 8-327] inferring latch for variable 'MAX_reg' [C:/Users/Usuario/
 INFO: [Synth 8-3354] encoded FSM with state register 'PRESENT_S_reg' using encoding 'one-hot' in module 'UNIDAD_CONTROL'
 WARNING: [Synth 8-327] inferring latch for variable 'SEL_M1_reg' [C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.srcs/sources_1/new/UNIDAD_CONTROL.vhd:47]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1015.668 ; gain = 0.000
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1014.309 ; gain = 0.000
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
@@ -103,15 +103,14 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input    8 Bit       Adders := 2     
-	   3 Input    8 Bit       Adders := 2     
+	   2 Input   16 Bit       Adders := 2     
+	   3 Input   16 Bit       Adders := 2     
 +---Registers : 
-	                8 Bit    Registers := 5     
-	                1 Bit    Registers := 1     
+	               16 Bit    Registers := 5     
 +---Muxes : 
+	   4 Input   16 Bit        Muxes := 2     
 	  11 Input   11 Bit        Muxes := 1     
 	   2 Input   11 Bit        Muxes := 5     
-	   4 Input    8 Bit        Muxes := 2     
 	  11 Input    2 Bit        Muxes := 1     
 	   2 Input    1 Bit        Muxes := 1     
 	  11 Input    1 Bit        Muxes := 3     
@@ -132,20 +131,20 @@ No constraint files found.
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1015.668 ; gain = 0.000
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1014.309 ; gain = 0.000
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1015.668 ; gain = 0.000
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1014.309 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1015.668 ; gain = 0.000
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1014.309 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -163,37 +162,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1015.668 ; gain = 0.000
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1014.309 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1015.668 ; gain = 0.000
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1014.309 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1015.668 ; gain = 0.000
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1014.309 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1015.668 ; gain = 0.000
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1014.309 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1015.668 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1014.309 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1015.668 ; gain = 0.000
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1014.309 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -210,18 +209,18 @@ Report Cell Usage:
 |      |Cell   |Count |
 +------+-------+------+
 |1     |BUFG   |     1|
-|2     |CARRY4 |    10|
-|3     |LUT2   |    43|
+|2     |CARRY4 |    22|
+|3     |LUT2   |    76|
 |4     |LUT3   |     4|
-|5     |LUT4   |    19|
-|6     |LUT5   |    18|
-|7     |LUT6   |     1|
-|8     |FDCE   |    51|
+|5     |LUT4   |    33|
+|6     |LUT5   |    33|
+|7     |LUT6   |     5|
+|8     |FDCE   |    90|
 |9     |FDPE   |     1|
 |10    |LD     |     2|
 |11    |LDC    |     1|
 |12    |LDCP   |     1|
-|13    |IBUF   |    20|
+|13    |IBUF   |    36|
 |14    |OBUF   |    16|
 +------+-------+------+
 
@@ -229,31 +228,33 @@ Report Instance Areas:
 +------+----------------+---------------+------+
 |      |Instance        |Module         |Cells |
 +------+----------------+---------------+------+
-|1     |top             |               |   188|
-|2     |  COMP          |COMPARADOR     |     4|
-|3     |  REGO0         |REG_OUT        |     8|
-|4     |  REGX0         |REG_X          |    30|
-|5     |  REGY0         |REG_Y          |    24|
-|6     |  REG_ABSELECT0 |REG_ABSELECT   |    33|
-|7     |  RSX           |RESTADOR_X     |     2|
-|8     |  RSY           |RESTADOR_Y     |     2|
-|9     |  SX            |SUMADOR_X      |     2|
-|10    |  SY            |SUMADOR_Y      |     2|
-|11    |  UC            |UNIDAD_CONTROL |    44|
+|1     |top             |               |   321|
+|2     |  COMP          |COMPARADOR     |     8|
+|3     |  MUX_X0        |MUX_X          |    16|
+|4     |  MUX_Y0        |MUX_Y          |    16|
+|5     |  REGO0         |REG_OUT        |    16|
+|6     |  REGX0         |REG_X          |    50|
+|7     |  REGY0         |REG_Y          |    54|
+|8     |  REG_ABSELECT0 |REG_ABSELECT   |    64|
+|9     |  RSX           |RESTADOR_X     |     4|
+|10    |  RSY           |RESTADOR_Y     |     4|
+|11    |  SX            |SUMADOR_X      |     4|
+|12    |  SY            |SUMADOR_Y      |     4|
+|13    |  UC            |UNIDAD_CONTROL |    28|
 +------+----------------+---------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1015.668 ; gain = 0.000
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1014.309 ; gain = 0.000
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1015.668 ; gain = 0.000
-Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1015.668 ; gain = 0.000
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1014.309 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1014.309 ; gain = 0.000
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1015.668 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1014.309 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1015.668 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1014.309 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 4 instances were transformed.
   LD => LDCE: 2 instances
@@ -263,7 +264,7 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 54 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1015.668 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1014.309 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Usuario/Desktop/2021-1/barbosa/GCD_LCM/GCD_LCM.runs/synth_1/LCM_GCD.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file LCM_GCD_utilization_synth.rpt -pb LCM_GCD_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Jan 30 20:43:51 2021...
+INFO: [Common 17-206] Exiting Vivado at Fri Feb  5 23:24:34 2021...

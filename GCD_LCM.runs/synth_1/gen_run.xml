@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a12ticsg325-1L" LaunchTime="1612060989">
+<GenRun Id="synth_1" LaunchPart="xc7a12ticsg325-1L" LaunchTime="1612589030">
   <File Type="PA-TCL" Name="LCM_GCD.tcl"/>
   <File Type="REPORTS-TCL" Name="LCM_GCD_reports.tcl"/>
   <File Type="RDS-RDS" Name="LCM_GCD.vds"/>

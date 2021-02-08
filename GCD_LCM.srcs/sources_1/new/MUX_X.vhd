@@ -5,11 +5,11 @@ entity MUX_X is
 
 port(
 
-    A     : in std_logic_vector(7 downto 0);
-    X_2   : in std_logic_vector(7 downto 0);
-    X_3   : in std_logic_vector(7 downto 0);
+    A     : in std_logic_vector(15 downto 0);
+    X_2   : in std_logic_vector(15 downto 0);
+    X_3   : in std_logic_vector(15 downto 0);
     SEL   : in std_logic_vector (1 downto 0); 
-    X : out std_logic_vector(7 downto 0)
+    X : out std_logic_vector(15 downto 0)
     
     );
     
